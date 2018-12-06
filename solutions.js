@@ -1,3 +1,5 @@
+/* ACT I */
+
 var hamlets = [
   "Laurence Olivier, 1948",
   "Grigori Kozintsev, 1964",
@@ -42,3 +44,21 @@ var futureHamlets = hamletObjects.filter(function(hamlet){
   return hamlet.year >= 2000
 });
 console.log(futureHamlets);
+
+/* ACT II */
+
+// there are many ways to do this one, here is a solution:
+
+var quoteObjArr = quotesArray.map(function(quote) {
+  var quoteObj = {};
+
+  quoteObj.quote = quote[0];
+  quoteObj.play = quote[1].split('-', 1)[0];
+  var actScene = quote[1].split('Act ')
+  actScene = actScene[1].split(',');
+  quoteObj.act = actScene[0];
+  quoteObj.scene = actScene[1].split('Scene ')[1].split(')')[0];
+  
+  return quoteObj;
+});
+console.log(quoteObjArr);
