@@ -72,7 +72,7 @@ var hamlets = [
 
 ### Scene IV
 
-Programmatically select all the Hamlets from the 1960's and assign them to an array called `swingin_hamlets`
+Using the array of objects from Scene III, programmatically select all the Hamlets from the 1960's and assign them to an array called `swingin_hamlets`
 
 Example expected transformation:
 ```js
@@ -101,7 +101,7 @@ var swingin_hamlets = [
 
 ### Scene V
 
-Programmatically select all the Hamlets from the 2000's and assign them to an array called `future_hamlets`
+Using the array of objects from Scene III, programmatically select all the Hamlets from the 2000's and assign them to an array called `future_hamlets`
 
 Example expected transformation:
 ```js

@@ -24,12 +24,12 @@ var hamlets = [
 
 
 // Scene IV
-// Programatically select all the Hamlets from the 1960's and assign them to an
+// Using the object of arrays from Scene III, programatically select all the Hamlets from the 1960's and assign them to an
 // array called swingin_hamlets
 
 
 // Scene V
-// Programatically select all the Hamlets from the 2000's and assign them to an
+// // Using the object of arrays from Scene III, programatically select all the Hamlets from the 2000's and assign them to an
 // array called future_hamlets
 
 
